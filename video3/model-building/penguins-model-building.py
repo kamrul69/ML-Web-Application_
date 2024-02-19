@@ -4,7 +4,7 @@ from sklearn.ensemble import RandomForestClassifier
 import pickle
 
 #dataset
-penguins=pd.read_csv('penguins_cleaned.csv')
+penguins=pd.read_csv('data/penguins_cleaned.csv')
 #copy the dataset as dataframe (df)
 df=penguins.copy()
 df
